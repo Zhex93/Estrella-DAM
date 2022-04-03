@@ -1,0 +1,28 @@
+<!DOCTYPE EstrellaDAM [
+        <!ELEMENT EstrellaDAM (carrera)*>
+        <!ELEMENT carrera (vuelta|pilotos)*>
+        <!ATTLIST carrera
+                campeonato CDATA #REQUIRED>
+        <!ELEMENT vuelta (#PCDATA)>
+        <!ATTLIST vuelta
+                num CDATA #REQUIRED>
+        <!ELEMENT pilotos (piloto)*>
+        <!ELEMENT piloto (nombre|puesto|intervalo|coche)*>
+        <!ATTLIST piloto
+                id CDATA #REQUIRED>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT puesto (#PCDATA)>
+        <!ATTLIST puesto
+                posc CDATA #REQUIRED>
+        <!ELEMENT intervalo (#PCDATA)>
+        <!ELEMENT coche (numcoche|modelo|Infocoche)*>
+        <!ATTLIST coche
+                id CDATA #REQUIRED>
+        <!ELEMENT numcoche (#PCDATA)>
+        <!ELEMENT modelo (#PCDATA)>
+        <!ELEMENT Infocoche (velocidad|bateria|marcha|RPM)*>
+        <!ELEMENT velocidad (#PCDATA)>
+        <!ELEMENT bateria (#PCDATA)>
+        <!ELEMENT marcha (#PCDATA)>
+        <!ELEMENT RPM (#PCDATA)>
+        ]>
