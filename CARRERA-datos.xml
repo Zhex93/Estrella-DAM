@@ -9,14 +9,14 @@
             <intervalo></intervalo>   
             <coche id="1">
                 <numcoche>1</numcoche>
-                <modelo>Red Bull</modelo>            
-            </coche>
-            <Infocoche>
-              <velocidad></velocidad>
-              <bateria></bateria>
-              <marcha></marcha>
-              <RPM></RPM>
-            </Infocoche>
+                <modelo>Red Bull</modelo>    
+                <Infocoche>
+                    <velocidad></velocidad>
+                    <bateria></bateria>
+                    <marcha></marcha>
+                    <RPM></RPM>
+                  </Infocoche>        
+            </coche>            
             </piloto>  
             <piloto id="11">
                 <nombre>Sergio Pérez </nombre>
@@ -24,14 +24,14 @@
                 <intervalo>+5:15:15</intervalo> 
                 <coche id="1">
                     <numcoche>11</numcoche>
-                    <modelo>Red Bull</modelo>            
-                </coche>
-                <Infocoche>
-                  <velocidad></velocidad>
-                  <bateria></bateria>
-                  <marcha></marcha>
-                  <RPM></RPM>
-                </Infocoche>    
+                    <modelo>Red Bull</modelo>  
+                    <Infocoche>
+                        <velocidad></velocidad>
+                        <bateria></bateria>
+                        <marcha></marcha>
+                        <RPM></RPM>
+                      </Infocoche>           
+                </coche>                   
                 </piloto>
              <piloto id="4">
                  <nombre>Lando Norris</nombre>
@@ -39,14 +39,14 @@
                 <intervalo></intervalo> 
                 <coche id="1">
                     <numcoche>4</numcoche>
-                    <modelo>McLaren</modelo>            
-                </coche>
-                <Infocoche>
-                  <velocidad></velocidad>
-                  <bateria></bateria>
-                  <marcha></marcha>
-                  <RPM></RPM>
-                </Infocoche>  
+                    <modelo>McLaren</modelo>   
+                    <Infocoche>
+                        <velocidad></velocidad>
+                        <bateria></bateria>
+                        <marcha></marcha>
+                        <RPM></RPM>
+                      </Infocoche>          
+                </coche>                 
             </piloto>
              <piloto id="3">
                 <nombre>Daniel Ricciardo</nombre>
@@ -54,14 +54,14 @@
                 <intervalo></intervalo>  
                 <coche id="1">
                     <numcoche>3</numcoche>
-                    <modelo>McLaren</modelo>            
-                </coche>
-                <Infocoche>
-                  <velocidad></velocidad>
-                  <bateria></bateria>
-                  <marcha></marcha>
-                  <RPM></RPM>
-                </Infocoche> 
+                    <modelo>McLaren</modelo>   
+                    <Infocoche>
+                        <velocidad></velocidad>
+                        <bateria></bateria>
+                        <marcha></marcha>
+                        <RPM></RPM>
+                    </Infocoche>          
+                </coche>                
             </piloto>
              <piloto id="6">
                 <nombre>Nicholas Latifi</nombre>
@@ -69,14 +69,14 @@
                 <intervalo></intervalo> 
                 <coche id="1">
                     <numcoche>6</numcoche>
-                    <modelo>Williams</modelo>            
-                </coche>
-                <Infocoche>
-                  <velocidad></velocidad>
-                  <bateria></bateria>
-                  <marcha></marcha>
-                  <RPM></RPM>
-                </Infocoche>  
+                    <modelo>Williams</modelo>   
+                    <Infocoche>
+                        <velocidad></velocidad>
+                        <bateria></bateria>
+                        <marcha></marcha>
+                        <RPM></RPM>
+                      </Infocoche>          
+                </coche>                
             </piloto>
              <piloto id="23">
                 <nombre>Alexander Albon</nombre>
@@ -84,14 +84,14 @@
                 <intervalo></intervalo>  
                 <coche id="1">
                     <numcoche>23</numcoche>
-                    <modelo>Williams</modelo>            
-                </coche>
-                <Infocoche>
-                  <velocidad></velocidad>
-                  <bateria></bateria>
-                  <marcha></marcha>
-                  <RPM></RPM>
-                </Infocoche> 
+                    <modelo>Williams</modelo> 
+                    <Infocoche>
+                        <velocidad></velocidad>
+                        <bateria></bateria>
+                        <marcha></marcha>
+                        <RPM></RPM>
+                    </Infocoche>            
+                </coche>                
             </piloto>
              <piloto id="63">
                  <nombre>George Russell</nombre>
@@ -99,14 +99,14 @@
                 <intervalo></intervalo>  
                 <coche id="1">
                     <numcoche>63</numcoche>
-                    <modelo>Mercedes</modelo>            
-                </coche>
-                <Infocoche>
-                  <velocidad></velocidad>
-                  <bateria></bateria>
-                  <marcha></marcha>
-                  <RPM></RPM>
-                </Infocoche> 
+                    <modelo>Mercedes</modelo>  
+                    <Infocoche>
+                        <velocidad></velocidad>
+                        <bateria></bateria>
+                        <marcha></marcha>
+                        <RPM></RPM>
+                    </Infocoche>          
+                </coche>                 
              </piloto>
              <piloto id="44">
                 <nombre> Lewis Hamilton </nombre>
@@ -114,14 +114,14 @@
                 <intervalo></intervalo> 
                 <coche id="1">
                     <numcoche>44</numcoche>
-                    <modelo>Mercedes</modelo>            
-                </coche>
-                <Infocoche>
-                  <velocidad></velocidad>
-                  <bateria></bateria>
-                  <marcha></marcha>
-                  <RPM></RPM>
-                </Infocoche>  
+                    <modelo>Mercedes</modelo> 
+                    <Infocoche>
+                        <velocidad></velocidad>
+                        <bateria></bateria>
+                        <marcha></marcha>
+                        <RPM></RPM>
+                    </Infocoche>            
+                </coche>                 
              </piloto>   
              <piloto id="55">
                 <nombre> Carlos Sainz</nombre>
@@ -129,14 +129,14 @@
                <intervalo></intervalo> 
                <coche id="1">
                 <numcoche>55</numcoche>
-                <modelo>Ferrari</modelo>            
-            </coche>
-            <Infocoche>
-              <velocidad></velocidad>
-              <bateria></bateria>
-              <marcha></marcha>
-              <RPM></RPM>
-            </Infocoche>  
+                <modelo>Ferrari</modelo>  
+                <Infocoche>
+                    <velocidad></velocidad>
+                    <bateria></bateria>
+                    <marcha></marcha>
+                    <RPM></RPM>
+                </Infocoche>           
+            </coche>             
             </piloto> 
             <piloto id="16">
                <nombre>Charles Leclerc</nombre>
@@ -144,14 +144,14 @@
                <intervalo></intervalo>
                <coche id="1">
                 <numcoche>16</numcoche>
-                <modelo>Ferrari</modelo>            
-            </coche>
-            <Infocoche>
-              <velocidad></velocidad>
-              <bateria></bateria>
-              <marcha></marcha>
-              <RPM></RPM>
-            </Infocoche>   
+                <modelo>Ferrari</modelo>  
+                <Infocoche>
+                    <velocidad></velocidad>
+                    <bateria></bateria>
+                    <marcha></marcha>
+                    <RPM></RPM>
+                </Infocoche>            
+            </coche>             
             </piloto>  
             <piloto id="14">
                 <nombre> Fernando Alonso</nombre>
@@ -159,14 +159,14 @@
                <intervalo></intervalo>
                <coche id="1">
                 <numcoche>14</numcoche>
-                <modelo>Alpine</modelo>            
-            </coche>
-            <Infocoche>
-              <velocidad></velocidad>
-              <bateria></bateria>
-              <marcha></marcha>
-              <RPM></RPM>
-            </Infocoche>   
+                <modelo>Alpine</modelo>
+                <Infocoche>
+                    <velocidad></velocidad>
+                    <bateria></bateria>
+                    <marcha></marcha>
+                    <RPM></RPM>
+                </Infocoche>             
+            </coche>             
             </piloto>  
             <piloto id="31">
                 <nombre>Esteban Ocon</nombre>
@@ -174,14 +174,14 @@
                <intervalo></intervalo>  
                <coche id="1">
                 <numcoche>31</numcoche>
-                <modelo>Alpine</modelo>            
-            </coche>
-            <Infocoche>
-              <velocidad></velocidad>
-              <bateria></bateria>
-              <marcha></marcha>
-              <RPM></RPM>
-            </Infocoche> 
+                <modelo>Alpine</modelo>
+                <Infocoche>
+                    <velocidad></velocidad>
+                    <bateria></bateria>
+                    <marcha></marcha>
+                    <RPM></RPM>
+                </Infocoche>             
+            </coche>            
             </piloto>  
             <piloto id="47">
                 <nombre>Mick Schumacher</nombre>
@@ -189,14 +189,14 @@
                <intervalo></intervalo> 
                <coche id="1">
                 <numcoche>47</numcoche>
-                <modelo>Haas</modelo>            
-            </coche>
-            <Infocoche>
-              <velocidad></velocidad>
-              <bateria></bateria>
-              <marcha></marcha>
-              <RPM></RPM>
-            </Infocoche>  
+                <modelo>Haas</modelo>
+                <Infocoche>
+                    <velocidad></velocidad>
+                    <bateria></bateria>
+                    <marcha></marcha>
+                    <RPM></RPM>
+                </Infocoche>             
+            </coche>             
             </piloto>  
             <piloto id="20">
                 <nombre>Kevin Magnussen</nombre>
@@ -204,14 +204,14 @@
                <intervalo></intervalo>
                <coche id="1">
                 <numcoche>20</numcoche>
-                <modelo>Haas</modelo>            
-            </coche>
-            <Infocoche>
-              <velocidad></velocidad>
-              <bateria></bateria>
-              <marcha></marcha>
-              <RPM></RPM>
-            </Infocoche>   
+                <modelo>Haas</modelo> 
+                <Infocoche>
+                    <velocidad></velocidad>
+                    <bateria></bateria>
+                    <marcha></marcha>
+                    <RPM></RPM>
+                </Infocoche>             
+            </coche>            
             </piloto>  
             <piloto id="15">
                 <nombre>Valtteri Bottas</nombre>
@@ -219,14 +219,14 @@
                <intervalo></intervalo>
                <coche id="1">
                 <numcoche>15</numcoche>
-                <modelo>Alfa Romeo</modelo>            
-            </coche>
-            <Infocoche>
-              <velocidad></velocidad>
-              <bateria></bateria>
-              <marcha></marcha>
-              <RPM></RPM>
-            </Infocoche>   
+                <modelo>Alfa Romeo</modelo> 
+                <Infocoche>
+                    <velocidad></velocidad>
+                    <bateria></bateria>
+                    <marcha></marcha>
+                    <RPM></RPM>
+                </Infocoche>            
+            </coche>             
             </piloto>  
             <piloto id="24">
                 <nombre>Guanyu Zhou</nombre>
@@ -234,14 +234,14 @@
                <intervalo></intervalo> 
                <coche id="1">
                 <numcoche>24</numcoche>
-                <modelo>Alfa Romeo</modelo>            
-            </coche>
-            <Infocoche>
-              <velocidad></velocidad>
-              <bateria></bateria>
-              <marcha></marcha>
-              <RPM></RPM>
-            </Infocoche>  
+                <modelo>Alfa Romeo</modelo> 
+                <Infocoche>
+                    <velocidad></velocidad>
+                    <bateria></bateria>
+                    <marcha></marcha>
+                    <RPM></RPM>
+                </Infocoche>            
+            </coche>            
             </piloto>  
             <piloto id="18">
                 <nombre> Lance Stroll</nombre>
@@ -249,14 +249,14 @@
                <intervalo></intervalo>   
                <coche id="1">
                 <numcoche>18</numcoche>
-                <modelo>Aston Martin</modelo>            
-            </coche>
-            <Infocoche>
-              <velocidad></velocidad>
-              <bateria></bateria>
-              <marcha></marcha>
-              <RPM></RPM>
-            </Infocoche>
+                <modelo>Aston Martin</modelo>   
+                <Infocoche>
+                    <velocidad></velocidad>
+                    <bateria></bateria>
+                    <marcha></marcha>
+                    <RPM></RPM>
+                </Infocoche>         
+            </coche>            
             </piloto>    
             <piloto id="27">
                 <nombre>Nico Hulkenberg</nombre>
@@ -264,14 +264,14 @@
                <intervalo></intervalo>
                <coche id="1">
                 <numcoche>27</numcoche>
-                <modelo>Aston Martin</modelo>            
-            </coche>
-            <Infocoche>
-              <velocidad></velocidad>
-              <bateria></bateria>
-              <marcha></marcha>
-              <RPM></RPM>
-            </Infocoche>   
+                <modelo>Aston Martin</modelo> 
+                <Infocoche>
+                    <velocidad></velocidad>
+                    <bateria></bateria>
+                    <marcha></marcha>
+                    <RPM></RPM>
+                </Infocoche>            
+            </coche>              
             </piloto>  
             <piloto id="22">
                 <nombre>Yuki Tsunoda</nombre>
@@ -279,14 +279,14 @@
                <intervalo></intervalo>  
                <coche id="1">
                 <numcoche>22</numcoche>
-                <modelo>AlphaTauri</modelo>            
-            </coche>
-            <Infocoche>
-              <velocidad></velocidad>
-              <bateria></bateria>
-              <marcha></marcha>
-              <RPM></RPM>
-            </Infocoche> 
+                <modelo>AlphaTauri</modelo> 
+                <Infocoche>
+                    <velocidad></velocidad>
+                    <bateria></bateria>
+                    <marcha></marcha>
+                    <RPM></RPM>
+                </Infocoche>           
+            </coche>            
             </piloto>  
             <piloto id="10">
                 <nombre> Pierre Gasly</nombre>
@@ -294,14 +294,14 @@
                <intervalo></intervalo> 
                <coche id="1">
                 <numcoche>10</numcoche>
-                <modelo>AlphaTauri</modelo>            
-            </coche>
-            <Infocoche>
-              <velocidad></velocidad>
-              <bateria></bateria>
-              <marcha></marcha>
-              <RPM></RPM>
-            </Infocoche>  
+                <modelo>AlphaTauri</modelo> 
+                <Infocoche>
+                    <velocidad></velocidad>
+                    <bateria></bateria>
+                    <marcha></marcha>
+                    <RPM></RPM>
+                </Infocoche>            
+            </coche>            
             </piloto>      
         </pilotos>    
     </carrera>
