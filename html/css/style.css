@@ -1,4 +1,4 @@
-h1{
+  h1{
     text-shadow: lightgray 0px 2px 2px;
     font-weight: bold;
     font-size: 30px;
@@ -42,7 +42,6 @@ h1{
   
   @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
   body{
-    background: -webkit-linear-gradient(left, rgb(255, 255, 0), rgb(255, 0, 0));
     font-family: 'Roboto', sans-serif;
   }
   section{
@@ -50,13 +49,13 @@ h1{
   }
   
   .made-with-birra {
-    margin-top: 40px;
+    margin-top: -5%;
     padding: 10px;
     clear: left;
     text-align: center;
     font-size: 18px;
     font-family: arial;
-    color: black;
+    color: white;
   }
   .img-birra {
       background-image: url("img/.img-birra");
@@ -64,7 +63,7 @@ h1{
       height: 35px;
   }
   .made-with-birra a {
-    color: black;
+    color: white;
     text-decoration: none;
   }
   .made-with-birra a:hover {
@@ -81,16 +80,30 @@ h1{
       -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
   }
 
-  .tabla-titulo {
-    position: absolute;
+  .tabla-partida {
+    top: -8%;
+    width: 780px;
+    position: relative;
     float: left;
   }
   .tabla-coche {
-    position: absolute;
+    top: -8%;
+    width: 780px;
+    position: relative;
     float: right;
   }
   .tabla-piloto {
-    position: absolute;
+    bottom: 10%;
+    width: 780px;
+    position: relative;
     clear: both;
     margin: auto;
+  }
+  #fondo-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
   }
