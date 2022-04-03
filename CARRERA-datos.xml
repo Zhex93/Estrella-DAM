@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="gameSaved.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <EstrellaDAM>
     <carrera campeonato="España">
         <vuelta num="50">4/50</vuelta>
@@ -20,7 +21,7 @@
 
             </piloto>
             <piloto id="11">
-                <nombre>Sergio Pérez </nombre>
+                <nombre>Sergio Pérez</nombre>
                 <puesto posc="1"></puesto>
                 <intervalo>+5:15:15</intervalo>
                 <coche id="1">

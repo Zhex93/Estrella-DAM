@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="Estrella-DAM">
+    <xs:element name="EstrellaDAM">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="carrera"></xs:element>
+                <xs:element ref="carrera" minOccurs="1" maxOccurs="unbounded"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -11,14 +11,15 @@
     <xs:element name="carrera">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="vuelta"/>
+                <xs:element ref="vuelta" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="pilotos" minOccurs="1" maxOccurs="1"/>
             </xs:sequence>
             <xs:attribute name="campeonato" type="xs:string"/>
         </xs:complexType>
     </xs:element>
 
     <xs:element name="vuelta">
-        <xs:complexType>
+        <xs:complexType mixed="true">
             <xs:attribute ref="num"/>
         </xs:complexType>
     </xs:element>
@@ -26,7 +27,7 @@
     <xs:element name="pilotos">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="piloto"></xs:element>
+                <xs:element ref="piloto" minOccurs="1" maxOccurs="30"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -39,6 +40,7 @@
                 <xs:element name="intervalo"></xs:element>
                 <xs:element ref="coche"></xs:element>
             </xs:sequence>
+            <xs:attribute name="id" type="xs:integer"/>
         </xs:complexType>
     </xs:element>
 
