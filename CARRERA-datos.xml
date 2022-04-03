@@ -8,8 +8,8 @@
             <puesto posc="1"></puesto>
             <intervalo></intervalo>   
             <coche id="1">
-                <numcoche></numcoche>
-                <modelo></modelo>            
+                <numcoche>1</numcoche>
+                <modelo>Red Bull</modelo>            
             </coche>
             <Infocoche>
               <velocidad></velocidad>
@@ -21,15 +21,25 @@
             <piloto id="11">
                 <nombre>Sergio Pérez </nombre>
                 <puesto posc="1"></puesto>
-                <intervalo>+5:15:15</intervalo>   
+                <intervalo>+5:15:15</intervalo> 
+                <coche id="1">
+                    <numcoche>11</numcoche>
+                    <modelo>Red Bull</modelo>            
+                </coche>
+                <Infocoche>
+                  <velocidad></velocidad>
+                  <bateria></bateria>
+                  <marcha></marcha>
+                  <RPM></RPM>
+                </Infocoche>    
                 </piloto>
              <piloto id="4">
                  <nombre>Lando Norris</nombre>
                  <puesto posc="1"></puesto>
                 <intervalo></intervalo> 
                 <coche id="1">
-                    <numcoche></numcoche>
-                    <modelo></modelo>            
+                    <numcoche>4</numcoche>
+                    <modelo>McLaren</modelo>            
                 </coche>
                 <Infocoche>
                   <velocidad></velocidad>
@@ -43,8 +53,8 @@
                 <puesto posc="1"></puesto>
                 <intervalo></intervalo>  
                 <coche id="1">
-                    <numcoche></numcoche>
-                    <modelo></modelo>            
+                    <numcoche>3</numcoche>
+                    <modelo>McLaren</modelo>            
                 </coche>
                 <Infocoche>
                   <velocidad></velocidad>
@@ -58,8 +68,8 @@
                 <puesto posc="1"></puesto>
                 <intervalo></intervalo> 
                 <coche id="1">
-                    <numcoche></numcoche>
-                    <modelo></modelo>            
+                    <numcoche>6</numcoche>
+                    <modelo>Williams</modelo>            
                 </coche>
                 <Infocoche>
                   <velocidad></velocidad>
@@ -73,8 +83,8 @@
                 <puesto posc="1"></puesto>
                 <intervalo></intervalo>  
                 <coche id="1">
-                    <numcoche></numcoche>
-                    <modelo></modelo>            
+                    <numcoche>23</numcoche>
+                    <modelo>Williams</modelo>            
                 </coche>
                 <Infocoche>
                   <velocidad></velocidad>
@@ -88,8 +98,8 @@
                  <puesto posc="1"></puesto>
                 <intervalo></intervalo>  
                 <coche id="1">
-                    <numcoche></numcoche>
-                    <modelo></modelo>            
+                    <numcoche>63</numcoche>
+                    <modelo>Mercedes</modelo>            
                 </coche>
                 <Infocoche>
                   <velocidad></velocidad>
@@ -103,8 +113,8 @@
                 <puesto posc="1"></puesto>
                 <intervalo></intervalo> 
                 <coche id="1">
-                    <numcoche></numcoche>
-                    <modelo></modelo>            
+                    <numcoche>44</numcoche>
+                    <modelo>Mercedes</modelo>            
                 </coche>
                 <Infocoche>
                   <velocidad></velocidad>
@@ -118,8 +128,8 @@
                <puesto posc="1"></puesto>
                <intervalo></intervalo> 
                <coche id="1">
-                <numcoche></numcoche>
-                <modelo></modelo>            
+                <numcoche>55</numcoche>
+                <modelo>Ferrari</modelo>            
             </coche>
             <Infocoche>
               <velocidad></velocidad>
@@ -133,8 +143,8 @@
                <puesto posc="1"></puesto>
                <intervalo></intervalo>
                <coche id="1">
-                <numcoche></numcoche>
-                <modelo></modelo>            
+                <numcoche>16</numcoche>
+                <modelo>Ferrari</modelo>            
             </coche>
             <Infocoche>
               <velocidad></velocidad>
@@ -148,8 +158,8 @@
                <puesto posc="1"></puesto>
                <intervalo></intervalo>
                <coche id="1">
-                <numcoche></numcoche>
-                <modelo></modelo>            
+                <numcoche>14</numcoche>
+                <modelo>Alpine</modelo>            
             </coche>
             <Infocoche>
               <velocidad></velocidad>
@@ -163,8 +173,8 @@
                <puesto posc="1"></puesto>
                <intervalo></intervalo>  
                <coche id="1">
-                <numcoche></numcoche>
-                <modelo></modelo>            
+                <numcoche>31</numcoche>
+                <modelo>Alpine</modelo>            
             </coche>
             <Infocoche>
               <velocidad></velocidad>
@@ -178,8 +188,8 @@
                <puesto posc="1"></puesto>
                <intervalo></intervalo> 
                <coche id="1">
-                <numcoche></numcoche>
-                <modelo></modelo>            
+                <numcoche>47</numcoche>
+                <modelo>Haas</modelo>            
             </coche>
             <Infocoche>
               <velocidad></velocidad>
@@ -193,8 +203,8 @@
                <puesto posc="1"></puesto>
                <intervalo></intervalo>
                <coche id="1">
-                <numcoche></numcoche>
-                <modelo></modelo>            
+                <numcoche>20</numcoche>
+                <modelo>Haas</modelo>            
             </coche>
             <Infocoche>
               <velocidad></velocidad>
@@ -208,8 +218,8 @@
                <puesto posc="1"></puesto>
                <intervalo></intervalo>
                <coche id="1">
-                <numcoche></numcoche>
-                <modelo></modelo>            
+                <numcoche>15</numcoche>
+                <modelo>Alfa Romeo</modelo>            
             </coche>
             <Infocoche>
               <velocidad></velocidad>
@@ -223,8 +233,8 @@
                <puesto posc="1"></puesto>
                <intervalo></intervalo> 
                <coche id="1">
-                <numcoche></numcoche>
-                <modelo></modelo>            
+                <numcoche>24</numcoche>
+                <modelo>Alfa Romeo</modelo>            
             </coche>
             <Infocoche>
               <velocidad></velocidad>
@@ -238,8 +248,8 @@
                <puesto posc="1"></puesto>
                <intervalo></intervalo>   
                <coche id="1">
-                <numcoche></numcoche>
-                <modelo></modelo>            
+                <numcoche>18</numcoche>
+                <modelo>Aston Martin</modelo>            
             </coche>
             <Infocoche>
               <velocidad></velocidad>
@@ -253,8 +263,8 @@
                <puesto posc="1"></puesto>
                <intervalo></intervalo>
                <coche id="1">
-                <numcoche></numcoche>
-                <modelo></modelo>            
+                <numcoche>27</numcoche>
+                <modelo>Aston Martin</modelo>            
             </coche>
             <Infocoche>
               <velocidad></velocidad>
@@ -268,8 +278,8 @@
                <puesto posc="1"></puesto>
                <intervalo></intervalo>  
                <coche id="1">
-                <numcoche></numcoche>
-                <modelo></modelo>            
+                <numcoche>22</numcoche>
+                <modelo>AlphaTauri</modelo>            
             </coche>
             <Infocoche>
               <velocidad></velocidad>
@@ -283,8 +293,8 @@
                <puesto posc="1"></puesto>
                <intervalo></intervalo> 
                <coche id="1">
-                <numcoche></numcoche>
-                <modelo></modelo>            
+                <numcoche>10</numcoche>
+                <modelo>AlphaTauri</modelo>            
             </coche>
             <Infocoche>
               <velocidad></velocidad>
