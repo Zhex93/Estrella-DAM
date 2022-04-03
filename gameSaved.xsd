@@ -25,7 +25,42 @@
 
     <xs:element name="pilotos">
         <xs:complexType>
-            <xs:attribute ref="num"/>
+            <xs:sequence>
+                <xs:element ref="piloto"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="piloto">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre"></xs:element>
+                <xs:element name="puesto"></xs:element>
+                <xs:element name="intervalo"></xs:element>
+                <xs:element ref="coche"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="coche">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="numcoche"></xs:element>
+                <xs:element name="modelo"></xs:element>
+                <xs:element ref="Infocoche"></xs:element>
+            </xs:sequence> 
+            <xs:attribute name="id" type="xs:integer"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Infocoche">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="velocidad"></xs:element>
+                <xs:element name="bateria"></xs:element>
+                <xs:element name="marcha"></xs:element>
+                <xs:element name="RPM"></xs:element>
+            </xs:sequence>
         </xs:complexType>
     </xs:element>
 
