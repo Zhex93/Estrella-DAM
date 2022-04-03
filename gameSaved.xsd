@@ -8,5 +8,33 @@
         </xs:complexType>
     </xs:element>
 
-    <xs:element name="carrera"></xs:element>
+    <xs:element name="carrera">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="vuelta"/>
+            </xs:sequence>
+            <xs:attribute name="campeonato" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="vuelta">
+        <xs:complexType>
+            <xs:attribute ref="num"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="pilotos">
+        <xs:complexType>
+            <xs:attribute ref="num"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:attribute name="num">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:maxInclusive value="50"/>
+                <xs:minInclusive value="37"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
 </xs:schema>
