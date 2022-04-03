@@ -4,102 +4,102 @@
         <vuelta num="50">4/50</vuelta>       
         <pilotos> 
             <piloto id="1">
-            <nombre></nombre>
+            <nombre>Max Verstappen</nombre>
             <puesto posc="1"></puesto>
             <intervalo></intervalo>   
             </piloto>  
-            <piloto id="2">
-                <nombre>Sergio El Bobolón</nombre>
+            <piloto id="11">
+                <nombre>Sergio Pérez </nombre>
                 <puesto posc="1"></puesto>
                 <intervalo>+5:15:15</intervalo>   
                 </piloto>
-             <piloto id="3">
-                 <nombre></nombre>
+             <piloto id="4">
+                 <nombre>Lando Norris</nombre>
                  <puesto posc="1"></puesto>
                 <intervalo></intervalo>   
             </piloto>
-             <piloto id="4">
-                <nombre></nombre>
-                <puesto posc="1"></puesto>
-                <intervalo></intervalo>   
-            </piloto>
-             <piloto id="5">
-                <nombre></nombre>
+             <piloto id="3">
+                <nombre>Daniel Ricciardo</nombre>
                 <puesto posc="1"></puesto>
                 <intervalo></intervalo>   
             </piloto>
              <piloto id="6">
-                <nombre></nombre>
+                <nombre>Nicholas Latifi</nombre>
                 <puesto posc="1"></puesto>
                 <intervalo></intervalo>   
             </piloto>
-             <piloto id="7">
-                 <nombre></nombre>
+             <piloto id="23">
+                <nombre>Alexander Albon</nombre>
+                <puesto posc="1"></puesto>
+                <intervalo></intervalo>   
+            </piloto>
+             <piloto id="63">
+                 <nombre>George Russell</nombre>
                  <puesto posc="1"></puesto>
                 <intervalo></intervalo>   
              </piloto>
-             <piloto id="8">
-                <nombre></nombre>
+             <piloto id="44">
+                <nombre> Lewis Hamilton </nombre>
                 <puesto posc="1"></puesto>
                 <intervalo></intervalo>   
              </piloto>   
-             <piloto id="9">
-                <nombre></nombre>
+             <piloto id="55">
+                <nombre> Carlos Sainz</nombre>
                <puesto posc="1"></puesto>
                <intervalo></intervalo>   
             </piloto> 
-            <piloto id="10">
-               <nombre></nombre>
-               <puesto posc="1"></puesto>
-               <intervalo></intervalo>   
-            </piloto>  
-            <piloto id="11">
-                <nombre></nombre>
-               <puesto posc="1"></puesto>
-               <intervalo></intervalo>   
-            </piloto>  
-            <piloto id="12">
-                <nombre></nombre>
-               <puesto posc="1"></puesto>
-               <intervalo></intervalo>   
-            </piloto>  
-            <piloto id="13">
-                <nombre></nombre>
+            <piloto id="16">
+               <nombre>Charles Leclerc</nombre>
                <puesto posc="1"></puesto>
                <intervalo></intervalo>   
             </piloto>  
             <piloto id="14">
-                <nombre></nombre>
+                <nombre> Fernando Alonso</nombre>
                <puesto posc="1"></puesto>
                <intervalo></intervalo>   
             </piloto>  
-            <piloto id="15">
-                <nombre></nombre>
+            <piloto id="31">
+                <nombre>Esteban Ocon</nombre>
                <puesto posc="1"></puesto>
                <intervalo></intervalo>   
             </piloto>  
-            <piloto id="16">
-                <nombre></nombre>
-               <puesto posc="1"></puesto>
-               <intervalo></intervalo>   
-            </piloto>  
-            <piloto id="17">
-                <nombre></nombre>
-               <puesto posc="1"></puesto>
-               <intervalo></intervalo>   
-            </piloto>    
-            <piloto id="18">
-                <nombre></nombre>
-               <puesto posc="1"></puesto>
-               <intervalo></intervalo>   
-            </piloto>  
-            <piloto id="19">
-                <nombre></nombre>
+            <piloto id="47">
+                <nombre>Mick Schumacher</nombre>
                <puesto posc="1"></puesto>
                <intervalo></intervalo>   
             </piloto>  
             <piloto id="20">
-                <nombre></nombre>
+                <nombre>Kevin Magnussen</nombre>
+               <puesto posc="1"></puesto>
+               <intervalo></intervalo>   
+            </piloto>  
+            <piloto id="15">
+                <nombre>Valtteri Bottas</nombre>
+               <puesto posc="1"></puesto>
+               <intervalo></intervalo>   
+            </piloto>  
+            <piloto id="24">
+                <nombre>Guanyu Zhou</nombre>
+               <puesto posc="1"></puesto>
+               <intervalo></intervalo>   
+            </piloto>  
+            <piloto id="18">
+                <nombre> Lance Stroll</nombre>
+               <puesto posc="1"></puesto>
+               <intervalo></intervalo>   
+            </piloto>    
+            <piloto id="27">
+                <nombre>Nico Hulkenberg</nombre>
+               <puesto posc="1"></puesto>
+               <intervalo></intervalo>   
+            </piloto>  
+            <piloto id="22">
+                <nombre>Yuki Tsunoda</nombre>
+               <puesto posc="1"></puesto>
+               <intervalo></intervalo>   
+            </piloto>  
+            <piloto id="10">
+                <nombre> Pierre Gasly</nombre>
                <puesto posc="1"></puesto>
                <intervalo></intervalo>   
             </piloto>      
