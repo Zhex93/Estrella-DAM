@@ -1,0 +1,20 @@
+tabla 1: (información de carrera)
+
+- Nombre
+- puesto
+- Intervalo
+- Vueltas
+- Media vueltas
+
+tabla 2: (información del piloto)
+
+- Número del coche
+- Modelo del coche
+- Nombre
+
+tabla 3: (informacion del coche)
+
+- Velocidad
+- Batería
+- Marcha
+- RPM 
