@@ -9,6 +9,7 @@
             <intervalo></intervalo>   
             <coche id="1">
                 <numcoche>1</numcoche>
+<<<<<<< Updated upstream
                 <modelo>Red Bull</modelo>    
                 <Infocoche>
                     <velocidad></velocidad>
@@ -17,6 +18,16 @@
                     <RPM></RPM>
                   </Infocoche>        
             </coche>            
+=======
+                <modelo>Red Bull</modelo>            
+            </coche>
+            <Infocoche>
+              <velocidad>280</velocidad>
+              <bateria>55</bateria>  
+              <marcha>7</marcha>
+              <RPM></RPM>
+            </Infocoche>
+>>>>>>> Stashed changes
             </piloto>  
             <piloto id="11">
                 <nombre>Sergio Pérez </nombre>
