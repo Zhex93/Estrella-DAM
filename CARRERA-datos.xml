@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EstrellaDAM>
+    <carrera campeonato="España" >        
+        <vuelta num="50">4/50</vuelta>       
+        <pilotos> 
+            <piloto id="1">
+            <nombre></nombre>
+            <puesto posc="1"></puesto>
+            <intervalo></intervalo>   
+            </piloto>  
+            <piloto id="2">
+                <nombre>Sergio El Bobolón</nombre>
+                <puesto posc="1"></puesto>
+                <intervalo>+5:15:15</intervalo>   
+                </piloto>
+             <piloto id="3">
+                 <nombre></nombre>
+                 <puesto posc="1"></puesto>
+                <intervalo></intervalo>   
+            </piloto>
+             <piloto id="4">
+                <nombre></nombre>
+                <puesto posc="1"></puesto>
+                <intervalo></intervalo>   
+            </piloto>
+             <piloto id="5">
+                <nombre></nombre>
+                <puesto posc="1"></puesto>
+                <intervalo></intervalo>   
+            </piloto>
+             <piloto id="6">
+                <nombre></nombre>
+                <puesto posc="1"></puesto>
+                <intervalo></intervalo>   
+            </piloto>
+             <piloto id="7">
+                 <nombre></nombre>
+                 <puesto posc="1"></puesto>
+                <intervalo></intervalo>   
+             </piloto>
+             <piloto id="8">
+                <nombre></nombre>
+                <puesto posc="1"></puesto>
+                <intervalo></intervalo>   
+             </piloto>   
+             <piloto id="9">
+                <nombre></nombre>
+               <puesto posc="1"></puesto>
+               <intervalo></intervalo>   
+            </piloto> 
+            <piloto id="10">
+               <nombre></nombre>
+               <puesto posc="1"></puesto>
+               <intervalo></intervalo>   
+            </piloto>  
+            <piloto id="11">
+                <nombre></nombre>
+               <puesto posc="1"></puesto>
+               <intervalo></intervalo>   
+            </piloto>  
+            <piloto id="12">
+                <nombre></nombre>
+               <puesto posc="1"></puesto>
+               <intervalo></intervalo>   
+            </piloto>  
+            <piloto id="13">
+                <nombre></nombre>
+               <puesto posc="1"></puesto>
+               <intervalo></intervalo>   
+            </piloto>  
+            <piloto id="14">
+                <nombre></nombre>
+               <puesto posc="1"></puesto>
+               <intervalo></intervalo>   
+            </piloto>  
+            <piloto id="15">
+                <nombre></nombre>
+               <puesto posc="1"></puesto>
+               <intervalo></intervalo>   
+            </piloto>  
+            <piloto id="16">
+                <nombre></nombre>
+               <puesto posc="1"></puesto>
+               <intervalo></intervalo>   
+            </piloto>  
+            <piloto id="17">
+                <nombre></nombre>
+               <puesto posc="1"></puesto>
+               <intervalo></intervalo>   
+            </piloto>    
+            <piloto id="18">
+                <nombre></nombre>
+               <puesto posc="1"></puesto>
+               <intervalo></intervalo>   
+            </piloto>  
+            <piloto id="19">
+                <nombre></nombre>
+               <puesto posc="1"></puesto>
+               <intervalo></intervalo>   
+            </piloto>  
+            <piloto id="20">
+                <nombre></nombre>
+               <puesto posc="1"></puesto>
+               <intervalo></intervalo>   
+            </piloto>      
+        </pilotos>    
+    </carrera>
+</EstrellaDAM>    
