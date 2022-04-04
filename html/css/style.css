@@ -100,11 +100,11 @@
     margin: auto;
   }
   #fondo-video {
-    backdrop-filter: blur(2px);
     position: absolute;
+    min-width: 100%; 
+    min-height: 100%;
     right: 0;
     bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
     z-index: -1;
+    overflow: hidden;
   }
