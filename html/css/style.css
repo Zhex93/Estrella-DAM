@@ -89,7 +89,7 @@
       -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
   }
 
-  .tabla-partida {
+  .tabla-piloto {
     top: -5%;
     width: 780px;
     position: relative;
@@ -101,7 +101,7 @@
     position: relative;
     float: right;
   }
-  .tabla-piloto {
+  .tabla-partida {
     top: -5%;
     width: 780px;
     position: relative;
