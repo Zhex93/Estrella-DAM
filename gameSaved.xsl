@@ -4,7 +4,7 @@
     <xsl:output method="html"/>
     <xsl:template match="/">
         <html>
-            
+
             <head>
                 <title>Estrella DAM</title>
 
@@ -24,11 +24,11 @@
                     <div class="tabla-titulo">
                         <table>
                             <tr>
-                                <th>Número</th>
-                                <th>Piloto</th>
-                                <th>Coche</th>
-                                <th>Tiempo</th>
+                                <th>Nombre</th>
+                                <th>Puesto</th>
+                                <th>Intervalo</th>
                                 <th>Vueltas</th>
+                                <th>Media</th>
                             </tr>
                         </table>
                     </div>
@@ -36,128 +36,66 @@
                         <table>
                             <xsl:for-each select="EstrellaDAM/carrera/pilotos/piloto">
                                 <tr>
-                                    <td><xsl:value-of select="@id"/></td>
-                                    <td><xsl:value-of select="nombre"/></td>
-                                    <td><xsl:value-of select="coche/numcoche"/></td>
-                                    <td><xsl:value-of select="intervalo"/></td>
-                                    <td><xsl:value-of select="/EstrellaDAM/carrera/vuelta"/></td>
+                                    <td>
+                                        <xsl:value-of select="@id"/>
+                                    </td>
+                                    <td>
+                                        <xsl:value-of select="nombre"/>
+                                    </td>
+                                    <td>
+                                        <xsl:value-of select="coche/numcoche"/>
+                                    </td>
+                                    <td>
+                                        <xsl:value-of select="intervalo"/>
+                                    </td>
+                                    <td>
+                                        <xsl:value-of select="/EstrellaDAM/carrera/vuelta"/>
+                                    </td>
                                 </tr>
                             </xsl:for-each>
                         </table>
                     </div>
                 </section>
 
-                <!-- <section class="tabla-coche">
+                <section class="tabla-coche">
                     <h1>Estadísticas del coche</h1>
                     <div class="tabla-titulo">
                         <table>
                             <tr>
-                                <th>Número</th>
-                                <th>Piloto</th>
-                                <th>Coche</th>
-                                <th>Tiempo</th>
-                                <th>Vueltas</th>
+                                <th>Velocidad</th>
+                                <th>Batería</th>
+                                <th>Marcha</th>
+                                <th>RPM</th>
+                                <th></th>
                             </tr>
                         </table>
                     </div>
                     <div class="tabla-titulo-encabezado">
                         <table>
-                            <tr>
-                                <td>69</td>
-                                <td>Sergio </td>
-                                <td>mcx1</td>
-                                <td>+2.01</td>
-                                <td>-0.36%</td>
-                            </tr>
-                            <tr>
-                                <td>94</td>
-                                <td>Luis</td>
-                                <td>mcx1</td>
-                                <td>-0.01</td>
-                                <td>-1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>101</td>
-                                <td>Miguelito</td>
-                                <td>mcx1</td>
-                                <td>+0.01</td>
-                                <td>+1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>23</td>
-                                <td>Moya</td>
-                                <td>mcx1</td>
-                                <td>-1.01</td>
-                                <td>+2.36%</td>
-                            </tr>
-                            <tr>
-                                <td>12</td>
-                                <td>Christian</td>
-                                <td>mcx1</td>
-                                <td>+2.01</td>
-                                <td>-0.36%</td>
-                            </tr>
+                            <xsl:for-each select="EstrellaDAM/carrera/pilotos/piloto/coche/Infocoche">
+                                <tr>
+                                    <td>
+                                        <xsl:value-of select="velocidad"/>
+                                    </td>
+                                    <td>
+                                        <xsl:value-of select="bateria"/>
+                                    </td>
+                                    <td>
+                                        <xsl:value-of select="marcha"/>
+                                    </td>
+                                    <td>
+                                        <xsl:value-of select="RPM"/>
+                                    </td>
+                                </tr>
+
+                            </xsl:for-each>
                         </table>
                     </div>
                 </section>
 
-                <section class="tabla-piloto">
-                    <h1>Estadísticas del piloto</h1>
-                    <div class="tabla-titulo">
-                        <table>
-                            <tr>
-                                <th>Número</th>
-                                <th>Piloto</th>
-                                <th>Coche</th>
-                                <th>Tiempo</th>
-                                <th>Vueltas</th>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="tabla-titulo-encabezado">
-                        <table>
-                            <tr>
-                                <td>69</td>
-                                <td>Sergio </td>
-                                <td>mcx1</td>
-                                <td>+2.01</td>
-                                <td>-0.36%</td>
-                            </tr>
-                            <tr>
-                                <td>94</td>
-                                <td>Luis</td>
-                                <td>mcx1</td>
-                                <td>-0.01</td>
-                                <td>-1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>101</td>
-                                <td>Miguelito</td>
-                                <td>mcx1</td>
-                                <td>+0.01</td>
-                                <td>+1.36%</td>
-                            </tr>
-                            <tr>
-                                <td>23</td>
-                                <td>Moya</td>
-                                <td>mcx1</td>
-                                <td>-1.01</td>
-                                <td>+2.36%</td>
-                            </tr>
-                            <tr>
-                                <td>12</td>
-                                <td>Christian</td>
-                                <td>mcx1</td>
-                                <td>+2.01</td>
-                                <td>-0.36%</td>
-                            </tr>
-                        </table>
-                    </div>
-                </section> -->
-
-                <!-- <div class="made-with-birra">
-                Made with<img class="img-birra"src="img/birra.png" alt="Birra">by <a target="_blank" href="#">Estrella DAM</a>
-                </div> -->
+                <div class="made-with-birra">
+                Made with <img class="img-birra" src="html/img/birra.png" alt="Birra"/>by <a target="_blank" href="https://www.estrelladamm.com/">Estrella DAM</a>
+                </div>
             </body>
         </html>
     </xsl:template>
