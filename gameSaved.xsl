@@ -40,7 +40,7 @@
                                     <td><xsl:value-of select="nombre"/></td>
                                     <td><xsl:value-of select="coche/numcoche"/></td>
                                     <td><xsl:value-of select="intervalo"/></td>
-                                    <td><xsl:value-of select="EstrellaDAM/carrera/vuelta"/></td>
+                                    <td><xsl:value-of select="/EstrellaDAM/carrera/vuelta"/></td>
                                 </tr>
                             </xsl:for-each>
                         </table>
