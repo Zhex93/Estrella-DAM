@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="gameSaved.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="gameSaved.xsl" type="text/xsl"?>
 <EstrellaDAM>
     <carrera campeonato="España">
         <vuelta num="50">4/50</vuelta>
