@@ -1,8 +1,11 @@
+  html {
+    overflow: hidden;
+  }
   h1{
-    text-shadow: lightgray 0px 2px 2px;
+    text-shadow: rgb(0, 0, 0) 0px 2px 2px;
     font-weight: bold;
     font-size: 30px;
-    color: black;
+    color: white;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 15px;
@@ -14,12 +17,16 @@
   }
   .tabla-titulo{
     background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 230, 0, 0.5);
    }
   .tabla-titulo-encabezado{
     height:275px;
     overflow-x:auto;
     margin-top: 0px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(255, 1, 1, 0.5);
+    border-left: 1px solid rgba(255, 1, 1, 0.5);
+    border-right: 1px solid rgba(255, 1, 1, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
   }
   th{
     padding: 20px 15px;
@@ -30,13 +37,13 @@
     text-transform: uppercase;
   }
   td{
-    text-shadow: lightgray 0px 2px 2px;
+    text-shadow: rgb(0, 0, 0) 0px 2px 2px;
     padding: 15px;
     text-align: left;
     vertical-align:middle;
     font-weight: bold;
     font-size: 18px;
-    color: black;
+    color: white;
     border-bottom: solid 1px rgba(0, 0, 0, 0.1);
   }
   
@@ -49,6 +56,7 @@
   }
   
   .made-with-birra {
+    text-shadow: rgb(0, 0, 0) 0px 2px 2px;
     margin-top: -1%;
     padding: 10px;
     clear: left;
@@ -63,6 +71,7 @@
       height: 35px;
   }
   .made-with-birra a {
+    text-shadow: rgb(0, 0, 0) 0px 2px 2px;
     color: white;
     text-decoration: none;
   }
