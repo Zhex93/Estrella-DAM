@@ -52,12 +52,13 @@
     font-family: 'Roboto', sans-serif;
   }
   section{
-    margin: 50px;
+    margin-left: 20px;
+    margin-bottom: 25px;
   }
   
   .made-with-birra {
     text-shadow: rgb(0, 0, 0) 0px 2px 2px;
-    margin-top: -1%;
+    margin-top: -2%;
     padding: 10px;
     clear: left;
     text-align: center;
@@ -90,20 +91,20 @@
   }
 
   .tabla-piloto {
-    top: -5%;
-    width: 780px;
+    top: -3%;
+    width: 740px;
     position: relative;
     float: left;
   }
   .tabla-coche {
-    top: -5%;
-    width: 780px;
+    top: -3%;
+    width: 740px;
     position: relative;
     float: right;
   }
   .tabla-partida {
     top: -5%;
-    width: 780px;
+    width: 740px;
     position: relative;
     clear: both;
     margin: auto;
