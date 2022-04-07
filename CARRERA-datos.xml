@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="gameSaved.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <?xml-stylesheet href="gameSaved.xsl" type="text/xsl"?>
+<!DOCTYPE EstrellaDAM [
+        <!ELEMENT EstrellaDAM (carrera)*>
+        <!ELEMENT carrera (vuelta,pilotos)*>       
+        <!ELEMENT vuelta (#PCDATA)>       
+        <!ELEMENT pilotos (piloto)*>
+        <!ELEMENT piloto (nombre,puesto,tiempomedio,intervalo,coche)*>       
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT puesto (#PCDATA)> 
+        <!ELEMENT tiempomedio (#PCDATA)>      
+        <!ELEMENT intervalo (#PCDATA)>
+        <!ELEMENT coche (numcoche,modelo,Infocoche)*>        
+        <!ELEMENT numcoche (#PCDATA)>
+        <!ELEMENT modelo (#PCDATA)>
+        <!ELEMENT Infocoche (velocidad,bateria,marcha,RPM)*>
+        <!ELEMENT velocidad (#PCDATA)>
+        <!ELEMENT bateria (#PCDATA)>
+        <!ELEMENT marcha (#PCDATA)>
+        <!ELEMENT RPM (#PCDATA)>
+        <!ATTLIST carrera campeonato CDATA #REQUIRED>
+        <!ATTLIST vuelta num CDATA #REQUIRED>
+        <!ATTLIST piloto id CDATA #REQUIRED>
+        <!ATTLIST puesto posc CDATA #REQUIRED>
+        <!ATTLIST coche id CDATA #REQUIRED>
+        ]>
 <EstrellaDAM>
     <carrera campeonato="España">
         <vuelta num="50">4/50</vuelta>
@@ -8,6 +32,7 @@
             <piloto id="1">
                 <nombre>Max Verstappen</nombre>
                 <puesto posc="1"></puesto>
+                <tiempomedio></tiempomedio>
                 <intervalo></intervalo>
                 <coche id="1">
                     <numcoche>1</numcoche>
@@ -24,7 +49,8 @@
             <piloto id="11">
                 <nombre>Sergio Pérez</nombre>
                 <puesto posc="1"></puesto>
-                <intervalo>+5:15:15</intervalo>
+                <tiempomedio></tiempomedio>
+                <intervalo>+5:15:15</intervalo>               
                 <coche id="1">
                     <numcoche>11</numcoche>
                     <modelo>Red Bull</modelo>
@@ -39,7 +65,8 @@
             <piloto id="4">
                 <nombre>Lando Norris</nombre>
                 <puesto posc="1"></puesto>
-                <intervalo></intervalo>
+                <tiempomedio></tiempomedio>
+                <intervalo></intervalo>                
                 <coche id="1">
                     <numcoche>4</numcoche>
                     <modelo>McLaren</modelo>
@@ -55,6 +82,7 @@
                 <nombre>Daniel Ricciardo</nombre>
                 <puesto posc="1"></puesto>
                 <intervalo></intervalo>
+                <tiempomedio></tiempomedio>
                 <coche id="1">
                     <numcoche>3</numcoche>
                     <modelo>McLaren</modelo>
@@ -69,6 +97,7 @@
             <piloto id="6">
                 <nombre>Nicholas Latifi</nombre>
                 <puesto posc="1"></puesto>
+                <tiempomedio></tiempomedio>
                 <intervalo></intervalo>
                 <coche id="1">
                     <numcoche>6</numcoche>
@@ -84,6 +113,7 @@
             <piloto id="23">
                 <nombre>Alexander Albon</nombre>
                 <puesto posc="1"></puesto>
+                <tiempomedio></tiempomedio>
                 <intervalo></intervalo>
                 <coche id="1">
                     <numcoche>23</numcoche>
@@ -99,6 +129,7 @@
             <piloto id="63">
                 <nombre>George Russell</nombre>
                 <puesto posc="1"></puesto>
+                <tiempomedio></tiempomedio>
                 <intervalo></intervalo>
                 <coche id="1">
                     <numcoche>63</numcoche>
@@ -114,6 +145,7 @@
             <piloto id="44">
                 <nombre> Lewis Hamilton </nombre>
                 <puesto posc="1"></puesto>
+                <tiempomedio></tiempomedio>
                 <intervalo></intervalo>
                 <coche id="1">
                     <numcoche>44</numcoche>
@@ -129,6 +161,7 @@
             <piloto id="55">
                 <nombre> Carlos Sainz</nombre>
                 <puesto posc="1"></puesto>
+                <tiempomedio></tiempomedio>
                 <intervalo></intervalo>
                 <coche id="1">
                     <numcoche>55</numcoche>
@@ -144,6 +177,7 @@
             <piloto id="16">
                 <nombre>Charles Leclerc</nombre>
                 <puesto posc="1"></puesto>
+                <tiempomedio></tiempomedio>
                 <intervalo></intervalo>
                 <coche id="1">
                     <numcoche>16</numcoche>
@@ -159,6 +193,7 @@
             <piloto id="14">
                 <nombre> Fernando Alonso</nombre>
                 <puesto posc="1"></puesto>
+                <tiempomedio></tiempomedio>
                 <intervalo></intervalo>
                 <coche id="1">
                     <numcoche>14</numcoche>
@@ -174,6 +209,7 @@
             <piloto id="31">
                 <nombre>Esteban Ocon</nombre>
                 <puesto posc="1"></puesto>
+                <tiempomedio></tiempomedio>
                 <intervalo></intervalo>
                 <coche id="1">
                     <numcoche>31</numcoche>
@@ -189,6 +225,7 @@
             <piloto id="47">
                 <nombre>Mick Schumacher</nombre>
                 <puesto posc="1"></puesto>
+                <tiempomedio></tiempomedio>
                 <intervalo></intervalo>
                 <coche id="1">
                     <numcoche>47</numcoche>
@@ -204,6 +241,7 @@
             <piloto id="20">
                 <nombre>Kevin Magnussen</nombre>
                 <puesto posc="1"></puesto>
+                <tiempomedio></tiempomedio>
                 <intervalo></intervalo>
                 <coche id="1">
                     <numcoche>20</numcoche>
@@ -219,6 +257,7 @@
             <piloto id="15">
                 <nombre>Valtteri Bottas</nombre>
                 <puesto posc="1"></puesto>
+                <tiempomedio></tiempomedio>
                 <intervalo></intervalo>
                 <coche id="1">
                     <numcoche>15</numcoche>
@@ -234,6 +273,7 @@
             <piloto id="24">
                 <nombre>Guanyu Zhou</nombre>
                 <puesto posc="1"></puesto>
+                <tiempomedio></tiempomedio>
                 <intervalo></intervalo>
                 <coche id="1">
                     <numcoche>24</numcoche>
@@ -249,6 +289,7 @@
             <piloto id="18">
                 <nombre> Lance Stroll</nombre>
                 <puesto posc="1"></puesto>
+                <tiempomedio></tiempomedio>
                 <intervalo></intervalo>
                 <coche id="1">
                     <numcoche>18</numcoche>
@@ -264,6 +305,7 @@
             <piloto id="27">
                 <nombre>Nico Hulkenberg</nombre>
                 <puesto posc="1"></puesto>
+                <tiempomedio></tiempomedio>
                 <intervalo></intervalo>
                 <coche id="1">
                     <numcoche>27</numcoche>
@@ -279,6 +321,7 @@
             <piloto id="22">
                 <nombre>Yuki Tsunoda</nombre>
                 <puesto posc="1"></puesto>
+                <tiempomedio></tiempomedio>
                 <intervalo></intervalo>
                 <coche id="1">
                     <numcoche>22</numcoche>
@@ -294,6 +337,7 @@
             <piloto id="10">
                 <nombre> Pierre Gasly</nombre>
                 <puesto posc="1"></puesto>
+                <tiempomedio></tiempomedio>
                 <intervalo></intervalo>
                 <coche id="1">
                     <numcoche>10</numcoche>
@@ -308,4 +352,4 @@
             </piloto>
         </pilotos>
     </carrera>
-</EstrellaDAM>   
+</EstrellaDAM> 
