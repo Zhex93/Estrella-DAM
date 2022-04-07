@@ -58,7 +58,7 @@
   
   .made-with-birra {
     text-shadow: rgb(0, 0, 0) 0px 2px 2px;
-    margin-top: -1%;
+    margin-top: -4px;
     padding: 10px;
     clear: left;
     text-align: center;
@@ -79,17 +79,6 @@
   .made-with-birra a:hover {
     text-decoration: underline;
   }
-  
-  ::-webkit-scrollbar {
-      width: 6px;
-  } 
-  ::-webkit-scrollbar-track {
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-  } 
-  ::-webkit-scrollbar-thumb {
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-  }
-
   .tabla-piloto {
     top: -2%;
     width: 740px;
