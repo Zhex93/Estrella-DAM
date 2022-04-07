@@ -37,6 +37,7 @@
             <xs:sequence>
                 <xs:element name="nombre"></xs:element>
                 <xs:element name="puesto"></xs:element>
+                <xs:element name="tiempomedio"></xs:element>
                 <xs:element name="intervalo"></xs:element>
                 <xs:element ref="coche"></xs:element>
             </xs:sequence>

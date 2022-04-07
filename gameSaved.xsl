@@ -117,7 +117,7 @@
                                         <xsl:value-of select="/EstrellaDAM/carrera/vuelta"/>
                                     </td>
                                     <td>
-                                        <!-- <xsl:value-of select=""/> -->
+                                        <xsl:value-of select="tiempomedio"/>
                                     </td>
                                 </tr>
                             </xsl:for-each>
